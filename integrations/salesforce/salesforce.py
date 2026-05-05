@@ -90,7 +90,7 @@ def parse_args() -> argparse.Namespace:
                         help="Salesforce REST API version (or SF_API_VERSION env var, default: 60.0)")
 
     # OAA provider settings
-    parser.add_argument("--provider-name", default="SalesforceDEV",
+    parser.add_argument("--provider-name", default="SalesforceUAT",
                         help="Provider name as shown in Veza")
     parser.add_argument("--datasource-name", default=None,
                         help="Datasource name in Veza (defaults to SF instance hostname)")
