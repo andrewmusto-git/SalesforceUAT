@@ -23,7 +23,7 @@ set -uo pipefail
 SCRIPT_NAME="install_salesforce.sh"
 SLUG="salesforce"
 INTEGRATION_SUBDIR="integrations/salesforce"
-REPO_URL="${REPO_URL:-https://github.com/andrewmusto-git/SalesforceDEV.git}"
+REPO_URL="${REPO_URL:-https://github.com/andrewmusto-git/SalesforceUAT.git}"
 BRANCH="${BRANCH:-main}"
 BASE_DIR="${INSTALL_DIR:-/opt/VEZA/salesforceDEV-veza}"
 SCRIPTS_DIR="${BASE_DIR}/scripts"
